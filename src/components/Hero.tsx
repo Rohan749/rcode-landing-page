@@ -1,5 +1,3 @@
-import React, { useRef } from "react";
-import { motion, useScroll } from "motion/react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import AniButton from "./common/AniButton";
@@ -29,7 +27,7 @@ const Hero = () => {
       {/* <section id="hero"> */}
       <div className="hero h-[100vh] flex justify-center lg:px-5 mb-10" />
       <div className=" w-full  flex flex-col justify-between pt-[4rem] ">
-        <div className=" absolute top-10 z-50 left-1 top-1 lg:left-5 blend flex flex-col gap-2">
+        <div className=" absolute z-50 left-1 top-1 lg:left-5 blend flex flex-col gap-2">
           <div className="left-0 title text-[#E0EBFF]">ELEVATING</div>
           <p className="mt-[-1rem] lg:mt-[-2rem] text-sm">Cutting-Edge Frontend <br/> Development Solutions</p>
           <div>

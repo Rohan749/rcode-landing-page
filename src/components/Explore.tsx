@@ -1,4 +1,3 @@
-import React from 'react'
 import Container from './common/Container'
 import { features } from './constants'
 import AnimationTitle from './common/AnimationTitle'

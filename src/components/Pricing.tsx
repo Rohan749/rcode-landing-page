@@ -1,8 +1,6 @@
 import { useGSAP } from "@gsap/react";
 import { packageContents } from "./constants";
 import gsap from "gsap";
-import { useEffect, useState } from "react";
-import AnimationTitle from "./common/AnimationTitle";
 import Page from "./common/Page";
 import PackageCard from "./common/PackageCard";
 

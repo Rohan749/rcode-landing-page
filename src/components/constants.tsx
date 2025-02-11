@@ -2,10 +2,6 @@ import { TbTruckDelivery } from "react-icons/tb";
 
 import { BiGridAlt } from "react-icons/bi";
 import { FaExpand } from "react-icons/fa";
-import roadmap from "../assets/images/roadmap.png";
-import development from "../assets/images/development.png";
-import launch from "../assets/images/launch.png";
-import support from "../assets/images/support.png";
 import { AiOutlineAppstoreAdd, AiOutlineExpand, AiOutlineEye } from "react-icons/ai";
 export const packageContents = [
   {

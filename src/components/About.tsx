@@ -1,8 +1,6 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import imag from "./1311994.jpeg";
 import AnimationTitle from "./common/AnimationTitle";
-import Tilt from "react-parallax-tilt";
 import AniButton from "./common/AniButton";
 
 const About = () => {

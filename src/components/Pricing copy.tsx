@@ -1,4 +1,3 @@
-import React from 'react'
 import Page from './common/Page'
 import PackageCard from './common/PackageCard'
 import { packageContents } from './constants'

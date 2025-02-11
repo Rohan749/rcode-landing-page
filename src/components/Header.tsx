@@ -1,7 +1,6 @@
-import React, { useEffect, useRef } from 'react'
+import { useRef } from 'react'
 import AniButton from './common/AniButton'
 import Lenis from 'lenis'
-import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 
 const Header = () => {

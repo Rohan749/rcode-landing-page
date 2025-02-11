@@ -1,5 +1,4 @@
 
-import React from 'react'
 import AniButton from './AniButton';
 
 interface cardInterface {

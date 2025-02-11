@@ -1,6 +1,6 @@
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
-import React, { ReactNode } from 'react'
+import { ReactNode } from 'react'
 
 interface ContainerProps {
     children: ReactNode;
