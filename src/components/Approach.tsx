@@ -12,7 +12,6 @@ const Approach = () => {
   const ref = useRef(null)
 
   useGSAP(() => {
-   const elements = gsap.utils.toArray(".approachval");
 
    gsap.from(".approachval", {
     opacity: 0,
