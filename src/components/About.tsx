@@ -73,7 +73,7 @@ const About = () => {
 
   return (
     <section>
-      <div className="h-[260vh] 2xl:h-[210vh] w-full p-1 lg:p-5  text-black relative flex flex-col overflow-hidden mt-10">
+      <div className="h-[235vh] 2xl:h-[210vh] w-full p-1 lg:p-5  text-black relative flex flex-col overflow-hidden mt-10">
         <AnimationTitle
           title={"WE CRAFT FRONTENDS<br/>THAT INSPIRE"}
           target={"about"}
@@ -81,9 +81,9 @@ const About = () => {
         />
         <div className="h-dvh w-full relative" id="clip">
           <div className="mask-clip-path about-image text-center outline-dashed text-white">
-            <div className="mask-container gap-3  w-full h-full flex flex-col items-center justify-center">
+            <div className="mask-container gap-3 outline-dashed w-full h-full flex flex-col items-center justify-center">
               <h1>RCODE</h1>
-              <p>Transform the way you experience your website.</p>
+              <p className="w-[18rem]">Transform the way you experience your website.</p>
               <AniButton>BOOK A CALL</AniButton>
             </div>
           </div>
