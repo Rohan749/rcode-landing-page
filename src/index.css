@@ -108,7 +108,7 @@ h2 {
 }
 
 .about-image {
-  @apply absolute left-1/2 top-3 z-20 h-[20rem] w-96 origin-center bg-gradient-to-b from-[#6f00ff] to-[#e100ff] -translate-x-1/2 overflow-hidden rounded-xs md:w-[20vw];
+  @apply absolute left-1/2 -translate-x-1/2 top-3 z-20 h-[20rem] w-96 origin-center bg-gradient-to-b from-[#6f00ff] to-[#e100ff]  overflow-hidden rounded-xs md:w-[18rem];
   /* background: linear-gradient(rgb(111, 0, 255), rgb(225, 0, 255)); */
 }
 
