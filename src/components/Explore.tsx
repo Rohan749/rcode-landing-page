@@ -16,8 +16,8 @@ const Explore = () => {
       y: 0,
       scrollTrigger: {
         trigger: ".paragraph",
-        start: "top 90%",
-        end: 'top center',
+        start: "top 80%",
+        end: "top 40%",
         scrub: 2
       }
     }

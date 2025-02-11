@@ -14,16 +14,16 @@ const Approach = () => {
   useGSAP(() => {
    const elements = gsap.utils.toArray(".approachval");
 
-   gsap.from(elements, {
+   gsap.from(".approachval", {
     opacity: 0,
     y: 50,
     stagger: 0.3, // Delay between elements
     duration: 1,
     scrollTrigger: {
-      trigger: ref.current,
-      start: "top 80%", // Each element animates when it reaches 80% of viewport
-      end: "top 30%", // Animation completes when element reaches 30%
-       toggleActions: "play none none reverse"
+      trigger: ".approachval",
+      start: "top 60%",
+      end: "top 20%",
+      scrub: 1
     },
   });
   

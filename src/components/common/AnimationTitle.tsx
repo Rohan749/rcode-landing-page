@@ -36,8 +36,8 @@ const AnimationTitle = ({ title, classVals, target }: TitleInterface) => {
       const titleAnimation = gsap.timeline({
         scrollTrigger: {
           trigger: ref.current,
-          start: "100 bottom",
-          end: "center bottom",
+          start: "top 80%",
+          end: "top 40%",
           scrub: 3,
         },
       });

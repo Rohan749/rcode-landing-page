@@ -73,7 +73,7 @@ const About = () => {
 
   return (
     <section>
-      <div className="h-[235vh] 2xl:h-[210vh] w-full p-1 lg:p-5  text-black relative flex flex-col overflow-hidden mt-10">
+      <div className="h-[230vh] 2xl:h-[210vh] w-full p-1 lg:p-5  text-black relative flex flex-col overflow-hidden mt-10">
         <AnimationTitle
           title={"WE CRAFT FRONTENDS<br/>THAT INSPIRE"}
           target={"about"}

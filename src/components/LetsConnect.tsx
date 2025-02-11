@@ -64,7 +64,7 @@ const LetsConnect = () => {
 
   return (
     <div className='p-20 flex items-center justify-center text-center min-h-[110vh] relative'>
-        <div className='w-[95vw] lg:w-[80vw]  lg:h-[70vh]  rounded-xl flex flex-col items-center justify-center relative'>
+        <div className=' lg:w-[80vw]  lg:h-[70vh]  rounded-xl flex flex-col items-center justify-center relative'>
           <div className='lg:h-[75vh] h-[85vh] max-h-[40rem] w-[100%] lg:w-[80vw] absolute bg-black footer z-30 left-1/2 -translate-x-1/2 rounded-xs' />
       <img src={img1} alt='' className= 'imglft hidden lg:block absolute z-50 left-[-4rem] bottom-0 h-[20rem] ' />
       <img src={img2} alt='' className='imgrght hidden lg:block absolute z-50 right-[-4rem] bottom-0 h-[30rem]' />
