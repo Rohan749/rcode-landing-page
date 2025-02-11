@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Big+Shoulders+Stencil+Text:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');@import "tailwindcss";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  overflow-x: hidden;
+  background-color: rgb(224, 235, 255);
+
+}
+
+button {
+  transition-duration: 0.2s;
+  text-transform: capitalize;
+  font-family: "Poppins";
+  font-weight: 700;
+  cursor: pointer;
+  background-color: #333;
+  padding: 15px 25px;
+  letter-spacing: 1px;
+  border-radius: 2px;
+}
+
+button:active {
+  scale: 0.9
+}
+
+
+/* header {
+  font-family: "Antonio";
+} */
+
+.imagCls {
+  background-image: url("./assets/1311994.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.antonio {
+  font-family: "Antonio";
+}
+
+.fontsecond {
+  font-family: "Big Shoulders Display";
+  font-weight: 900;
+
+}
+
+.bigshoulder {
+  font-family: "Big Shoulders Display";
+  font-weight: 900;
+  letter-spacing: -2px;
+}
+
+.herobg {
+  background-image: url("../src/assets/images/bghome.png");
+  
+  background-position: center 55%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+h1 {
+  @apply lg:text-7xl text-5xl leading-[70px];
+  font-family: "Big Shoulders Display";
+  font-weight: 1000;
+
+}
+
+.title {
+  @apply text-[8rem];
+  font-size: clamp( 4rem, 10vw, 14rem);
+
+  font-family: "Big Shoulders Display";
+  font-weight: 900;
+}
+
+h2 {
+  font-family: "Big Shoulders Display";
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.pricing {
+  font-family: "Big Shoulders Display";
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.mask-clip-path {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.about-image {
+  @apply absolute left-1/2 top-3 z-20 h-[20rem] w-96 origin-center bg-gradient-to-b from-[#6f00ff] to-[#e100ff] -translate-x-1/2 overflow-hidden rounded-xs md:w-[20vw];
+  /* background: linear-gradient(rgb(111, 0, 255), rgb(225, 0, 255)); */
+}
+
+.animated-title {
+  @apply flex flex-col gap-1 text-sm uppercase leading-[.85] text-center text-white sm:px-32 text-[72px] md:text-[108px];
+}
+
+.animated-word {
+  @apply  font-black opacity-0 px-2;
+  transform: translate3d(10px, 51px, -60px) rotateY(60deg) rotateX(-40deg);
+  transform-origin: 50% 50% -150px !important;
+  will-change: opacity, transform;
+  
+}
+
+
+.blend {
+  mix-blend-mode: exclusion;
+}
+
+.black-theme {
+  @apply text-white bg-black
+}
+
+.light-theme {
+  @apply text-black bg-transparent
+}
+
+.container {
+  border: 0.1px solid rgb(184, 184, 184);
+  border-radius: 4px;
+  width: 100%;
+}
+
+
+.perspective-container {
+  perspective: 1000px; /* Depth effect */
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transform: rotateX(20deg) rotateY(-15deg) translateZ(50px);
+  transform-style: preserve-3d;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card h2 {
+  margin: 10px 0;
+  font-size: 22px;
+  color: #333;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover Effect */
+.card:hover {
+  transform: rotateX(10deg) rotateY(-5deg) translateZ(60px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* .transform3D {
+  transform-style: preserve-3d;
+
+  transform: rotateX(20deg) rotateY(-45deg) translateZ(50px);
+} */
+
+/* section {
+  @apply flex flex-col justify-center max-w-[1800px] outline-dashed
+} */
+
+
+.package_card {
+  border: 2px solid white;
+  border-radius: 5px;
+  /* background: linear-gradient(white, rgb(245, 229, 255), rgb(248, 218, 252)); */
+
+  /* box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.243); */
+}
+
+li {
+  line-height: 25px;
+}
