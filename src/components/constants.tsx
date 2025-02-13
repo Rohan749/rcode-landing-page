@@ -3,82 +3,48 @@ import { TbTruckDelivery } from "react-icons/tb";
 import { BiGridAlt } from "react-icons/bi";
 import { FaExpand } from "react-icons/fa";
 import { AiOutlineAppstoreAdd, AiOutlineExpand, AiOutlineEye } from "react-icons/ai";
+
 export const packageContents = [
   {
     designation: "Starter Spark",
     name: "STARTER",
     type: "Free",
-    alert: "5 spots left for march.",
+    alert: "5 spots left for March.",
     features: [
       "Landing Page Development (If Figma File is Final Ready)",
       "Up to 5-6 Pages",
-      "Delivery Within 5 Days (After Development Starts)",
-      "2D Animation Included",
+      "Delivery Within 4 Days (After Development Starts)",
+      "Animations Included",
       "Fully Responsive & Optimized",
       "SEO-Ready Structure",
     ],
   },
   {
-    designation: "Landing Launch",
-    name: "LANDING PLUS",
-    type: "$499 starts",
-    alert: "3 spots left for march.",
+    designation: "Growth Ignite",
+    name: "GROWTH",
+    type: "$1,599 starts",
+    alert: "Limited spots available.",
     features: [
-      "All Starter Features Included",
-      "Fully Figma Based Design (Tailored to Your Needs)",
-      "Up to 6-7 Pages",
-      "Delivery in 6 Days (After Development Starts)",
-      "2D Animation + Videos Can be Included",
-    ],
-  },
-  {
-    designation: "Premium Pulse",
-    name: "PREMIUM PLUS",
-    type: "$799 starts",
-    alert: "1 spot left for march.",
-    features: [
-      "Unique Landing Page With High-Quality Design",
-      "Includes Smooth Animations",
-      "Contains 7–9 Pages Delivered Within a Week",
-      "2D Animation + Videos Can be Included"
-    ],
-  },
-  {
-    designation: "Dashboard Draft",
-    name: "DASHBOARD WIREFRAME",
-    type: "$999 starts",
-    alert: "1 spot left for march.",
-    features: [
-      "Dashboard Concept Created Using Figma Wireframes",
-      "Comprises 5–8 Sections",
-      "Includes Backend Integration Planning",
-      "Timelines Discussed Upfront"
-    ],
-  },
-  {
-    designation: "Custom Forge",
-    name: "CUSTOM DASHBOARD",
-    type: "$1699",
-    alert: "1 spot left for march.",
-    features: [
-      "All Features of Dashboard Wireframe Included",
-      "Custom Dashboard Developed With/Without Figma Designs",
-      "Focus on Wireframe-Based Layout With Optimized Performance",
-      "State Management And Admin Controls",
-      "Complete FE Integration+Authentication",
-      "Timelines Discussed Upfront",
+      "Custom-Built Frontend Development",
+      "Figma-Based Design Tailored to Your Needs",
+      "Dashboard Wireframing & Basic Integrations",
+      "7-9 Pages Delivered Within a Week",
+      "Smooth Animations & Video Support",
+      "Optimized Performance & SEO-Ready",
     ],
   },
   {
     designation: "Enterprise Elevate",
-    name: "ENTERPRICE DASHBOARD",
-    type: "$2699",
-    alert: "1 spot left for march.",
+    name: "ENTERPRISE",
+    type: "$2,699 starts",
+    alert: "1 spot left for Feb.",
     features: [
-      "Features of Custom Dashboard Package",
-      "Enhanced With Additional Third-Party Integrations",
-      "Tailored For Comprehensive And Scalable Dashboard Solutions",
-      "Timelines Discussed Upfront"
+      "Complete Frontend Development With Full Dashboard",
+      "State Management & Admin Controls",
+      "Authentication & Backend Integration Support",
+      "Third-Party API & Payment Integrations",
+      "Highly Scalable & Optimized for Performance",
+      "Timelines Discussed Upfront",
     ],
   },
 ];

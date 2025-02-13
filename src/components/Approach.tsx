@@ -5,8 +5,6 @@ import { approach } from "./constants";
 import gsap from "gsap";
 import { useRef } from "react";
 
-
-
 const Approach = () => {
 
   const ref = useRef(null)

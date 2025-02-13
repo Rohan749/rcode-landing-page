@@ -9,14 +9,15 @@ interface cardInterface {
       alert: string;
       features: string[];
     };
+    classname?: string;
   }
 
 
-const PackageCard = ({pkg}:cardInterface) => {
+const PackageCard = ({pkg, classname}:cardInterface) => {
   return (
-    <div className='package_card xl:hover:scale-105 transition-all flex flex-col gap-2 justify-between min-h-[35rem] max-h-[40rem]  h-[80vh] p-3 text-black krona'>
+    <div className={`package_card xl:hover:scale-105 transition-all flex flex-col gap-2 justify-between min-h-[35rem] max-h-[40rem]  h-[80vh] p-3 text-black krona ${classname}`}>
         <div>
-        <div className='rounded-sm px-3 py-1 bg-black text-white text-xs poppins w-fit'>
+        <div className={`rounded-sm px-3 py-1 ${classname === "black-theme" ? "bg-[#333]" : "bg-black"} text-white text-xs poppins w-fit`}>
             {pkg.designation}
         </div>
         <p className='py-3'>

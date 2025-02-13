@@ -30,7 +30,9 @@ const Header = () => {
         <div className='flex items-center gap-5'>
             <a href='https://x.com/heyrohan7' target='_blank'>X</a>
             <a href='https://www.youtube.com/@rcode34' target='_blank'>YOUTUBE</a>
+            <a target="_blank" href={"https://cal.com/rohan-uqvxp0/30min"}>
             <AniButton>BOOK A CALL</AniButton>
+            </a>
         </div>
     </header>
   )

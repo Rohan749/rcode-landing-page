@@ -57,9 +57,9 @@ const Pricing = () => {
       <div className='lg:pb-10 price-box'>
     
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 h-full w-full py-10'>
-        {packageContents.map((pkg) => {
+        {packageContents.map((pkg, index) => {
           return <div className='w-full' key={pkg.designation}>
-          <PackageCard pkg={pkg} />
+          <PackageCard classname={index===1 ? "black-theme" : ""} pkg={pkg} />
           </div>
         })}
       </div>

@@ -71,9 +71,9 @@ const LetsConnect = () => {
           <AnimationTitle title={"READY TO <br/> GET STARTED?"}  target={"footer-connect"}
           classVals={"font-bold text-center text-white z-50"} />
           <div className='lg:w-[34rem] para z-50 py-8'>Get started on launching your idea. Let's connect to understand your vision and scale your product to new heights!</div>
-          <div className='z-50'>
-            <AniButton classname='z-50 para'>CONTACT US</AniButton>
-          </div>
+          <a href="https://cal.com/rohan-uqvxp0/30min" target="_blank" className='z-50'>
+            <AniButton classname='z-50 para'>BOOK A CALL</AniButton>
+          </a>
 
         </div>
     </div>

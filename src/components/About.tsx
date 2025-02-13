@@ -72,7 +72,7 @@ const About = () => {
   });
 
   return (
-    <section>
+    <section id="about">
       <div className="h-[230vh] 2xl:h-[210vh] w-full p-1 lg:p-5  text-black relative flex flex-col overflow-hidden mt-10">
         <AnimationTitle
           title={"WE CRAFT FRONTENDS<br/>THAT INSPIRE"}
@@ -84,7 +84,9 @@ const About = () => {
             <div className="mask-container gap-3 outline-dashed w-full h-full flex flex-col items-center justify-center">
               <h1>RCODE</h1>
               <p className="w-[18rem]">Transform the way you experience your website.</p>
-              <AniButton>BOOK A CALL</AniButton>
+              <a target="_blank" href={"https://linktr.ee/rohanpandey"}>
+              <AniButton>KNOW MORE</AniButton>
+              </a>
             </div>
           </div>
           <div className=" absolute top-100 flex justify-center w-full">

@@ -31,7 +31,9 @@ const Hero = () => {
           <div className="left-0 title text-[#E0EBFF]">ELEVATING</div>
           <p className="mt-[-1rem] lg:mt-[-2rem] text-sm">Cutting-Edge Frontend <br/> Development Solutions</p>
           <div>
+            <a href="#about">
           <AniButton>GET STARTED</AniButton>
+          </a>
           </div>
         </div>
       </div>
