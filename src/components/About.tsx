@@ -75,7 +75,7 @@ const About = () => {
     <section id="about">
       <div className="h-[230vh] 2xl:h-[210vh] w-full p-1 lg:p-5  text-black relative flex flex-col overflow-hidden mt-10">
         <AnimationTitle
-          title={"WE CRAFT FRONTENDS<br/>THAT INSPIRE"}
+          title={"I CRAFT FRONTENDS<br/>THAT INSPIRE"}
           target={"about"}
           classVals={"font-bold text-center text-black"}
         />
@@ -93,7 +93,7 @@ const About = () => {
             <div className="lg:text-center text-justify lg:w-[35rem]">
               <p className="text-center">Elevating Frontend Experiences Effortlessly!</p>
               <p className="text-gray-500">
-                RCode specializes in crafting high-quality, scalable frontend
+                RCODE specializes in crafting high-quality, scalable frontend
                 solutions, delivering sleek designs, seamless integrations, and
                 rapid development for businesses worldwide. 🚀
               </p>

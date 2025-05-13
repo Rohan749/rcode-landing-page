@@ -11,7 +11,7 @@ const OurApproach = () => {
       <div className='mb-10 grid grid-cols-1'>
       <Container>
         <h2>Pixel-perfect Frontend</h2>
-        <p>We transform designs into sleek, responsive, and high-performance web interfaces.</p>
+        <p>Let's transform designs into sleek, responsive, and high-performance web interfaces.</p>
       </Container>
       </div>
 

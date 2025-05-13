@@ -43,7 +43,7 @@ const Pricing = () => {
   return (
     <div id="pricing" className="p-1 lg:p-5 py-20 min-h-[100vh] black-theme bg-black">
       <div className=" h-full price-container ">
-        <h1>OUR PRICING</h1>
+        <h1>PRICING</h1>
         {/* <div className="pricename pt-10">
           <ul>
             <li>

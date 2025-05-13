@@ -29,7 +29,7 @@ const Hero = () => {
       <div className=" w-full  flex flex-col justify-between pt-[4rem] ">
         <div className=" absolute z-50 left-1 top-16 lg:top-10 lg:left-5 blend flex flex-col gap-2">
           <div className="left-0 title text-[#E0EBFF]">ELEVATING</div>
-          <p className="mt-[-1rem] lg:mt-[-2rem] text-sm">Cutting-Edge Frontend <br/> Development Solutions</p>
+          <p className="mt-[-1rem] lg:mt-[-2rem] text-sm">Crafting Interfaces <br/> That Perform</p>
           <div>
             <a href="#about">
           <AniButton>GET STARTED</AniButton>

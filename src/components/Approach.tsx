@@ -30,7 +30,7 @@ const Approach = () => {
     <section ref={ref} className="black-theme p-1 lg:p-5 py-20">
       <div>
         <AnimationTitle
-          title={"OUR APPROACH"}
+          title={"MY APPROACH"}
           target={"approach"}
           classVals={"font-bold text-center text-white"}
         />
