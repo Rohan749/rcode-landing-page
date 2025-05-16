@@ -1,4 +1,4 @@
-import 'lenis/dist/lenis.css'
+import "lenis/dist/lenis.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -8,21 +8,21 @@ import LetsConnect from "./components/LetsConnect";
 import Approach from "./components/Approach";
 
 function App() {
+  return (
+    <>
+      <div id="container-box" className=" overflow-x-hidden ">
+        <Header />
+        <Hero />
+        <About />
+        <Explore />
+        <Approach />
 
-
-  return <>
-    <div id="container-box" className=" overflow-x-hidden ">
-
-      <Header />
-      <Hero/>
-      <About />
-      <Explore />
-      <Approach />
-      <Pricing />
-      <LetsConnect  />
-
-    </div>
-  </>;
+        {/* <Testimonials /> */}
+        <Pricing />
+        <LetsConnect />
+      </div>
+    </>
+  );
 }
 
 export default App;
